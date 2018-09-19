@@ -1,0 +1,100 @@
+/*----- Main CSS -----*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, "sans-serif";
+    font-size: 15px;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding : 0 10px;
+}
+
+.orange {
+    color: #ff7a00;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+h2 {
+    color: #444;
+    font-size: 55px;
+
+}
+
+
+/*----- Header -----*/ 
+
+header {
+    height: 120px;
+}
+
+header h1 {
+    font-family: 'Crete Round', "serif";
+    font-size: 45px;
+    color: #444;
+    float: left;
+    margin-top: 32px;
+}
+
+header nav  {
+    float: right;
+    margin: 50px 0 0 0;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*----- Main Image -----*/
+
+#main-image {
+    height: 580px;
+    background: url('./img/main.jpg');
+}
+
+#main-image h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin: 0 0 20px 0;
+}
+
+.button1 {
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-color: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
